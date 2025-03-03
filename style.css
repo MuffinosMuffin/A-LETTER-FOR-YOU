@@ -55,4 +55,25 @@ button:hover {
     font-size: 16px;
     line-height: 1.6;
 }
+.email-corner {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background: rgba(255, 107, 107, 0.8);
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.email-corner a {
+    color: white;
+    text-decoration: none;
+}
+
+.email-corner a:hover {
+    text-decoration: underline;
+}
 
